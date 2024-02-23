@@ -1,27 +1,7 @@
----
-page_type: sample
-languages:
-- azdeveloper
-- nodejs
-- bicep
-- typescript
-- html
-products:
-- azure
-- azure-cosmos-db
-- azure-app-service
-- azure-monitor
-- azure-pipelines
-urlFragment: todo-nodejs-mongo
-name: React Web App with Node.js API and MongoDB on Azure
-description: A complete ToDo app on Azure App Service with Node.js API and Azure Cosmos API for MongoDB for storage. Uses Azure Developer CLI (azd) to build, deploy, and monitor
----
-<!-- YAML front-matter schema: https://review.learn.microsoft.com/en-us/help/contribute/samples/process/onboarding?branch=main#supported-metadata-fields-for-readmemd -->
+# Hello World with `azd`
 
-# React Web App with Node.js API and MongoDB on Azure
-
-[![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://codespaces.new/azure-samples/todo-nodejs-mongo)
-[![Open in Dev Container](https://img.shields.io/static/v1?style=for-the-badge&label=Dev+Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/azure-samples/todo-nodejs-mongo)
+[![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://codespaces.new/wbreza/azd-hello-world)
+[![Open in Dev Container](https://img.shields.io/static/v1?style=for-the-badge&label=Dev+Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/wbreza/azd-hello-world)
 
 A blueprint for getting a React web app with a Node.js API and a MongoDB database running on Azure. The blueprint includes sample application code (a ToDo web app) which can be removed and replaced with your own application code. Add your own source code and leverage the Infrastructure as Code assets (written in Bicep) to get up and running quickly.
 
@@ -39,7 +19,7 @@ The following prerequisites are required to use this application. Please ensure 
 - [Node.js with npm (18.17.1+)](https://nodejs.org/) - for API backend and Web frontend
 
 ### Quickstart
-To learn how to get started with any template, follow the steps in [this quickstart](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=localinstall&pivots=programming-language-nodejs) with this template(`Azure-Samples/todo-nodejs-mongo`).
+To learn how to get started with any template, follow the steps in [this quickstart](https://learn.microsoft.com/azure/developer/azure-developer-cli/get-started?tabs=localinstall&pivots=programming-language-nodejs) with this template(`wbreza/azd-hello-world`).
 
 This quickstart will show you how to authenticate on Azure, initialize using a template, provision infrastructure and deploy code on Azure via the following commands:
 
@@ -48,7 +28,7 @@ This quickstart will show you how to authenticate on Azure, initialize using a t
 azd auth login
 
 # First-time project setup. Initialize a project in the current directory, using this template. 
-azd init --template Azure-Samples/todo-nodejs-mongo
+azd init --template wbreza/azd-hello-world
 
 # Provision and deploy to Azure
 azd up
