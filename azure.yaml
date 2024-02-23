@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: azd-hello-world
+metadata:
+  template: azd-hello-world
+services:
+  helloworld:
+    project: ./src/helloworld
+    language: js
+    host: appservice

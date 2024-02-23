@@ -1,0 +1,16 @@
+{
+  "name": "todo-node-ts-express-mongo",
+  "version": "0.1.0",
+  "description": "Express Todo REST API",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {}
+}
